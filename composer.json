@@ -1,0 +1,25 @@
+{
+    "name": "fourn\/is-phone",
+    "description": "validate chinese phone number",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fourn",
+            "email": "fourn@foxmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Fourn\\IsPhone\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fourn\\IsPhone\\IsPhoneServiceProvider"
+            ]
+        }
+    }
+}
